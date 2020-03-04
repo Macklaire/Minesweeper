@@ -28,16 +28,6 @@ public class Minesweeper_Feld {
 			}
 		}
 
-		/*
-		 * if (x > 0 && y > 0 && field[x-1][y-1] == true) { nrBombs++; } if (x > 0 && y
-		 * < (height - 1) && field[x-1][y+1] == true) { nrBombs++; } if (x > 0 &&
-		 * field[x-1][y] == true) { nrBombs++; } if (y > 0 && field[x][y-1] == true) {
-		 * nrBombs++; } if (y < (height - 1) && field[x][y+1] == true) { nrBombs++; } //
-		 * if (field[x][y] == true) { // nrBombs++; // } if (x < (width - 1) && y > 0 &&
-		 * field[x+1][y-1] == true) { nrBombs++; } if (x < (width - 1) && y < (height -
-		 * 1) && field[x+1][y+1] == true) { nrBombs++; } if (x < (width - 1) &&
-		 * field[x+1][y] == true) { nrBombs++; }
-		 */
 		return nrBombs;
 	}
 
@@ -57,6 +47,7 @@ public class Minesweeper_Feld {
 				}
 			}
 		}
+
 		return bombs;
 	}
 
