@@ -107,9 +107,6 @@ public class Minesweeper_Feld {
 
 	}
 
-	// public void interactiveFields(x, y) {
-	// /* import an active click library */
-
 	public static void main(String[] args) {
 		System.out.println("Welcome to Minesweeper, input size like \"3 3\"");
 		System.out.println("Tippen Sie ´ende´ um das Spiel zu beenden");
